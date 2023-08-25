@@ -1,0 +1,41 @@
+.card-container {
+  background-color: rgb(71 85 105);
+  width: 300px;
+  border-radius: 6px;
+  overflow: hidden;
+  opacity: 0.9;
+}
+.card-div {
+  position: relative;
+}
+
+.image {
+  width: 100%;
+  min-height: 168px;
+  object-fit: cover;
+}
+.icon-btn {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  position: absolute;
+  right: 8px;
+  bottom: 12px;
+  place-items: center;
+  border-radius: 9999px;
+  display: flex;
+}
+.info-div {
+  padding: 16px;
+  color: white;
+}
+.course-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+}
+.course-desc {
+  margin-top: 8px;
+  font-size: 16px;
+  line-height: 24px;
+}

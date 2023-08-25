@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+.spinner-cards{
+  width:  91.666667%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
